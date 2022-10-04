@@ -1,8 +1,8 @@
 import './App.css';
 
-import { ContactForm } from './ContactForm/ContactForm';
+import { ContactForm } from '../components/ContactForm/ContactForm';
 import { Filter } from './Filter/filter';
-import { ContactList } from './ContactList/contactList';
+import { ContactList } from '../components/ContactList/contactList';
 
 export function App() {
   return (
