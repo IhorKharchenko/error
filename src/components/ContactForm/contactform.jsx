@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { addContact } from 'redux/reducer';
 import { nanoid } from 'nanoid';
 
-export default function ContactForm() {
+export const ContactForm = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(state => state.contacts.contacts);
 
@@ -73,4 +73,4 @@ export default function ContactForm() {
       </button>
     </form>
   );
-}
+};
