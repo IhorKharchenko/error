@@ -23,8 +23,8 @@ export const ContactForm = () => {
         break;
 
       default:
+        return;
     }
-    return;
   };
 
   const onSubmit = e => {
