@@ -3,7 +3,7 @@ import { ContactForm } from './ContactForm/ContactForm';
 import { ContactList } from './ContactList/contactList';
 import { Filter } from './Filter/filter';
 
-export function App() {
+export const App = () => {
   return (
     <div className="container">
       <div className="form-container">
@@ -15,4 +15,4 @@ export function App() {
       <ContactList />
     </div>
   );
-}
+};
