@@ -23,7 +23,7 @@ export const ContactForm = () => {
         break;
 
       default:
-        return;
+        break;
     }
   };
 
